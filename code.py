@@ -130,7 +130,7 @@ def complete_task():
     task["status"] = "completed"
     task["completed_at"] = current_time()
     db.save()
-    print("✅ Task completed")
+    print("✅ finished bro!!")
 
 
 # -------------------- ANALYTICS --------------------
